@@ -1,0 +1,11 @@
+
+name: 'Build Mriya'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano_v2"]'
+      mapping: '["44/mriya"]'
+
