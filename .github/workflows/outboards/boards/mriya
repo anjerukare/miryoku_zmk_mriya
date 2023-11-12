@@ -1,0 +1,5 @@
+
+outboard_repository=HolySwitch/zmk-config
+outboard_ref=mriya44
+outboard_from=config/boards/arm/mriya
+outboard_to=boards/arm/mriya
