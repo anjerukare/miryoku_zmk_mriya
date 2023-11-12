@@ -6,6 +6,7 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["nice_nano_v2"]'
-      mapping: '["44/mriya"]'
+      board: '["mriya_left","mriya_right"]'
+      alphas: '["QWERTY"]'
+      nav: '["vi"]'
 
