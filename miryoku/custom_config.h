@@ -1,9 +1,6 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-// Swap apostrophe with semicolon on Base, Num, Sym and Tap layers
-// NOTE: It probably makes QWERTY hardcoded on these layers
-
 #define U_TAPPING_TERM 100
 
 #define MIRYOKU_LAYER_BASE \
