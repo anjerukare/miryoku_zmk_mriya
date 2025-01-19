@@ -1,6 +1,8 @@
 
 name: 'Build Mriya'
-on: workflow_dispatch
+on:
+  - push
+  - workflow_dispatch
 jobs:
   build:
     uses: ./.github/workflows/main.yml
